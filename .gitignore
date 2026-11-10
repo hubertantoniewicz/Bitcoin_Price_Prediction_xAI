@@ -13,3 +13,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Course-provided raw data (not redistributed)
+data/
