@@ -1,10 +1,6 @@
 # Previous assignment (kept locally, not tracked)
 Assignment 1/
 
-# Claude Code
-CLAUDE.md
-.claude/
-
 # Python
 .venv/
 __pycache__/
