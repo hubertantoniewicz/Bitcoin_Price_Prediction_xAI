@@ -16,3 +16,6 @@ __pycache__/
 
 # Course-provided raw data (not redistributed)
 data/
+
+# Report (kept local)
+*.docx
