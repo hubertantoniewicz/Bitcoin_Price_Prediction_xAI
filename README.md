@@ -23,19 +23,3 @@ UCF - Master's in FinTech - CAP 5619 homework.
 | Naive (previous day's price) | 1,095.08 |
 
 The model was fixed on validation data before the test month was evaluated.
-
-## Files
-
-- `BTC_Prediction_xAI_hu827797.ipynb`: full pipeline with outputs.
-- `predictions_dec2017.csv`: `date, predicted_price` for the 31 days of December 2017.
-- `requirements.txt`: Python dependencies.
-
-## Run
-
-Data files are course-provided and not included. Place `AmoChainletsInTime.txt`,
-`OccChainletsInTime.txt` and `pricedBitcoin2009-2018.csv` in `data/`, then:
-
-```bash
-pip install -r requirements.txt
-jupyter nbconvert --to notebook --execute --inplace BTC_Prediction_xAI_hu827797.ipynb
-```
